@@ -1,4 +1,5 @@
 import React from 'react';
+// no browser route
 import { Router, Route, Switch } from 'react-router-dom';
 import StreamCreate from './streams/StreamCreate';
 import StreamEdit from './streams/StreamEdit';
