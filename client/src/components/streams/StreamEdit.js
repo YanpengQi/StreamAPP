@@ -30,6 +30,8 @@ class StreamEdit extends React.Component {
   }
 }
 
+// state: all states from redux store
+// ownProps: props object shows up inside our components
 const mapStateToProps = (state, ownProps) => {
   return { stream: state.streams[ownProps.match.params.id] };
 };

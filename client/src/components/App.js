@@ -1,5 +1,5 @@
 import React from 'react';
-// no browser route
+// not using browser route
 import { Router, Route, Switch } from 'react-router-dom';
 import StreamCreate from './streams/StreamCreate';
 import StreamEdit from './streams/StreamEdit';
@@ -9,6 +9,7 @@ import StreamShow from './streams/StreamShow';
 import Header from './Header';
 import history from '../history';
 
+// :id is a variable
 const App = () => {
   return (
     <div className="ui container">
